@@ -1,13 +1,12 @@
-import './App.css'
+import { Card, TextField } from "@mui/material";
+import "./App.css";
+
 function App() {
   return (
-    <>
-    <h1 className="title">
-      Online Dictionary
-    </h1>
-
-    
-    </>
+    <div className="center-container">
+      <h1 className="title">Online Dictionary</h1>
+      <TextField id="outlined-basic" label="Search word" variant="outlined" />
+    </div>
   );
 }
 

@@ -1,7 +1,17 @@
-*{
-    margin: 0;
-    padding: 0;
-    height: 100vh;
+html,
+body,
+#root {
+  /* height: 100%; */
+  margin: 0;
+}
+
+.center-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center; /* horizontal center */
+  gap: 20px;
 }
 .title {
   font-family: "Bebas Neue", sans-serif;
